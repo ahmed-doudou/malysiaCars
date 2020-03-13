@@ -1,7 +1,7 @@
 
 <?php
-include 'inc/head.php';
-include 'inc/header.php';
+// include 'inc/head.php';
+include 'header.php';
 include 'inc/db.php';
 ?>
 <!--== Preloader Area Start ==-->
@@ -114,7 +114,7 @@ include 'inc/db.php';
                     <div class="section-title  text-center">
                         <h2>About us</h2>
                         <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p></p>
                     </div>
                 </div>
                 <!-- Section Title End -->
@@ -126,7 +126,9 @@ include 'inc/db.php';
                     <div class="display-table">
                         <div class="display-table-cell">
                             <div class="about-content">
-                                <p>Lorem simply dummy is a texted of the printing costed and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                <p>Malysia Car is a car rental agency located in  <a href="https://www.google.com/maps/place/imm+n,+217+Boulevard+Brahim+Roudani,+Casablanca+20250/@33.5750134,-7.639789,341m/data=!3m1!1e3!4m5!3m4!1s0xda7d2c430157035:0xc641b71635983304!8m2!3d33.5752762!4d-7.6392914">Casablanca Maarif</a>. Our the customer benefits from a wide range of vehicles: families, sedans, SUV, 4 * 4 and luxury cars, we have all categories of cars. Find a car that meets your needs on our website now. with one of the best services in casablanca.
+
+</p>
                             </div>
                         </div>
                     </div>

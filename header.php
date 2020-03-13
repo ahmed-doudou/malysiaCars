@@ -1,5 +1,7 @@
+<?php include 'head.php'; ?>
+
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="zxx" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -8,14 +10,10 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Cardoor - Car Rental HTML Template</title>
+    <title>Malysia Car</title>
 
     <!--=== Bootstrap CSS ===-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!--=== Animate CSS ===-->
-    <link href="assets/css/plugins/animate.css" rel="stylesheet">
-    <!--=== Vegas Min CSS ===-->
-    <link href="assets/css/plugins/vegas.min.css" rel="stylesheet">
     <!--=== Slicknav CSS ===-->
     <link href="assets/css/plugins/slicknav.min.css" rel="stylesheet">
     <!--=== Magnific Popup CSS ===-->
@@ -29,21 +27,60 @@
     <!--=== Theme Reset CSS ===-->
     <link href="assets/css/reset.css" rel="stylesheet">
     <!--=== Main Style CSS ===-->
-    <link href="style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
     <!--=== Responsive CSS ===-->
     <link href="assets/css/responsive.css" rel="stylesheet">
 
 
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    
 </head>
 
 <body class="loader-active">
 
-    <!--== Preloader Area Start ==-->
-    <div class="preloader">
+    
+
+    <!--=======================Javascript============================-->
+    <!--=== Jquery Min Js ===-->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!--=== Jquery Migrate Min Js ===-->
+    <script src="assets/js/jquery-migrate.min.js"></script>
+    <!--=== Popper Min Js ===-->
+    <script src="assets/js/popper.min.js"></script>
+    <!--=== Bootstrap Min Js ===-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--=== Gijgo Min Js ===-->
+    <script src="assets/js/plugins/gijgo.js"></script>
+    <!--=== Vegas Min Js ===-->
+    <script src="assets/js/plugins/vegas.min.js"></script>
+    <!--=== Isotope Min Js ===-->
+    <script src="assets/js/plugins/isotope.min.js"></script>
+    <!--=== Owl Caousel Min Js ===-->
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
+    <!--=== Waypoint Min Js ===-->
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <!--=== CounTotop Min Js ===-->
+    <script src="assets/js/plugins/counterup.min.js"></script>
+    <!--=== YtPlayer Min Js ===-->
+    <script src="assets/js/plugins/mb.YTPlayer.js"></script>
+    <!--=== Magnific Popup Min Js ===-->
+    <script src="assets/js/plugins/magnific-popup.min.js"></script>
+    <!--=== Slicknav Min Js ===-->
+    <script src="assets/js/plugins/slicknav.min.js"></script>
+
+    <!--=== Mian Js ===-->
+    <script src="assets/js/main.js"></script>
+<style type="text/css">
+        .footer {
+            left: 0;
+            position: fixed;
+            bottom: 0; 
+            text-align: center;
+            color: white;
+            width: 100%;
+        }
+    </style>
+
+ <div class="preloader">
         <div class="preloader-spinner">
             <div class="loader-content">
                 <img src="assets/img/preloader.gif" alt="JSOFT">
@@ -60,29 +97,29 @@
                 <div class="row">
                     <!--== Single HeaderTop Start ==-->
                     <div class="col-lg-3 text-left">
-                        <i class="fa fa-map-marker"></i> 802/2, Mirpur, Dhaka
+                        <a href="https://www.google.com/maps/place/imm+n,+217+Boulevard+Brahim+Roudani,+Casablanca+20250/@33.5750134,-7.639789,341m/data=!3m1!1e3!4m5!3m4!1s0xda7d2c430157035:0xc641b71635983304!8m2!3d33.5752762!4d-7.6392914"><i class="fa fa-map-marker"> | LOCATION</i></a> 
                     </div>
                     <!--== Single HeaderTop End ==-->
 
                     <!--== Single HeaderTop Start ==-->
                     <div class="col-lg-3 text-center">
-                        <i class="fa fa-mobile"></i> +1 800 345 678
+                        <i class="fa fa-mobile"> | +212 01234567</i> 
                     </div>
                     <!--== Single HeaderTop End ==-->
-
-                    <!--== Single HeaderTop Start ==-->
-                    <div class="col-lg-3 text-center">
-                        <i class="fa fa-clock-o"></i> Mon-Fri 09.00 - 17.00
+                    <div class="col-lg-3 text-left">
+                        <a href="mailto:MALYSIACAR@GMAIL.COM"><i class="fa fa-envelope"> | MALYSIACAR@GMAIL.COM</i></a>  
                     </div>
+                    <!--== Single HeaderTop Start ==-->
+                    
                     <!--== Single HeaderTop End ==-->
 
                     <!--== Social Icons Start ==-->
                     <div class="col-lg-3 text-right">
                         <div class="header-social-icons">
-                            <a href="#"><i class="fa fa-behance"></i></a>
+                            
                             <a href="#"><i class="fa fa-pinterest"></i></a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
                         </div>
                     </div>
                     <!--== Social Icons End ==-->
@@ -97,7 +134,7 @@
                 <div class="row">
                     <!--== Logo Start ==-->
                     <div class="col-lg-4">
-                        <a href="index3.html" class="logo">
+                        <a href="index.php" class="logo">
                             <img src="assets/img/logo.png" alt="JSOFT">
                         </a>
                     </div>
@@ -107,42 +144,10 @@
                     <div class="col-lg-8 d-none d-xl-block">
                         <nav class="mainmenu alignright">
                             <ul>
-                                <li class="active"><a href="#">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home 1</a></li>
-                                        <li><a href="index2.html">Home 2</a></li>
-                                        <li><a href="index3.html">Home 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="#">Cars</a>
-                                    <ul>
-                                        <li><a href="car-left-sidebar.html">Car Left Sidebar</a></li>
-                                        <li><a href="car-right-sidebar.html">Car Right Sidebar</a></li>
-                                        <li><a href="car-without-sidebar.html">Car Without Sidebar</a></li>
-                                        <li><a href="car-details.html">Car Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="index.html">Pages</a>
-                                    <ul>
-                                        <li><a href="package.html">Pricing</a></li>
-                                        <li><a href="driver.html">Driver</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="help-desk.html">Help Desk</a></li>
-                                        <li><a href="login.html">Log In</a></li>
-                                        <li><a href="register.html">Register</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Blog</a>
-                                    <ul>
-                                        <li><a href="article.html">Blog Page</a></li>
-                                        <li><a href="article-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li class=""><a href="#">HOME</a></li>
+                                <li><a href="#about.php">ABOUT</a></li>
+                                <li><a href="#services.php">SERVICES</a></li>
+                                <li><a href="#contact.php"> CONTACT </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -152,4 +157,8 @@
         </div>
         <!--== Header Bottom End ==-->
     </header>
-   
+    <!--== Header Area End ==-->
+
+
+    <!--== LANGUAGES ==-->
+     

@@ -150,49 +150,18 @@
                         <nav class="mainmenu alignright">
                             <ul>
                                 <li class="active"><a href="#">HOME</a>
-                                    <!--ul>
-                                        <li><a href="index.html">Home 1</a></li>
-                                        <li><a href="index2.html">Home 2</a></li>
-                                        <li><a href="index3.html">Home 3</a></li>
-                                    </ul-->
+                                    
                                 </li>
                                 <li><a href="about.php">ABOUT</a></li>
                                 <li><a href="services.php">SERVICES</a></li>
-                                <!--li><a href="cars.php"><?php echo $lang['CARS'] ?></a>
-                                    <ul>
-                                    	<li><a href="#car-right-sidebar.html">Car Right Sidebar</a></li>
-                                        <li><a href="car-left-sidebar.html">Car Left Sidebar</a></li>
-                                        <li><a href="car-without-sidebar.html">Car Without Sidebar</a></li>
-                                        <li><a href="car-details.php">Car Details</a></li>
-                                    </ul-->
+                               
                                 </li>
-                                <!--li><a href="index.html">Pages</a>
-                                    <ul>
-                                        <li><a href="package.html">Pricing</a></li>
-                                        <li><a href="driver.html">Driver</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="help-desk.html">Help Desk</a></li>
-                                        <li><a href="login.html">Log In</a></li>
-                                        <li><a href="register.html">Register</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                    </ul>
-                                </li-->
+                                
                                 <li><a href="#"> BLOG</a>
-                                    <!--ul>
-                                        <li><a href="article.php">Blog Page</a></li>
-                                        <li><a href="article-details.php">Blog Details</a></li>
-                                    </ul-->
+                                    
                                 </li>
                                 <li><a href="contact.php"> CONTACT </a></li>
-                               <!--li>
-                                        <select >
-                                            <option selected="">EN</option>
-                                            <option value="2">AR</option>
-                                            <option value="">FR</option>
-                                            <option value="4">BR</option>
-                                        </select>
-                                    </li-->
+                              
                             </ul>
                         </nav>
                     </div>

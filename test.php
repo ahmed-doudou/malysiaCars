@@ -1,176 +1,205 @@
-<?php include 'inc/head.php'; ?><!--== Testimonials Area Start ==-->
-    <section id="testimonial-area" class="section-padding">
+<?php include 'header.php'; ?><!--== Testimonials Area Start ==-->
+   <div class="main">
+
         <div class="container">
-            <div class="row">
-                <!-- Section Title Start -->
-                <div class="col-lg-12">
-                    <div class="section-title  text-center">
-                        <h2>Testimonials</h2>
-                        <span class="title-line"><i class="fa fa-car"></i></span>
-                        <p>Lorem ipsum dolor sit amet elit.</p>
-                    </div>
-                </div>
-                <!-- Section Title End -->
-            </div>
+            <h2>SIGN UP OFFICE EMPLYEE ACCOUNT</h2>
+            <form method="POST" id="signup-form" class="signup-form">
+                    <h3>
+                        <span class="icon"><i class="ti-user"></i></span>
+                        <span class="title_text">Personal</span>
+                    </h3>
+                    <fieldset>
+                        <legend>
+                            <span class="step-heading">Personal Informaltion: </span>
+                            <span class="step-number">Step 1 / 4</span>
+                        </legend>
+                        <div class="form-group">
+                            <label for="first_name" class="form-label required">First name</label>
+                            <input type="text" name="first_name" id="first_name" />
+                        </div>
 
-            <div class="row">
-                <div class="col-lg-8 col-md-12 m-auto">
-                    <div class="testimonial-content">
-                        <!--== Single Testimoial Start ==-->
-                        <div class="single-testimonial">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis totam obcaecati impedit, at autem repellat vel magni architecto veritatis sed.</p>
-                            <h3>Vongchong Smith</h3>
-                            <div class="client-logo">
-                                <img src="assets/img/client/client-pic-1.jpg" alt="JSOFT">
+                        <div class="form-group">
+                            <label for="last_name" class="form-label required">Last name</label>
+                            <input type="text" name="last_name" id="last_name" />
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-date">
+                                <label for="birth_date" class="form-label">Date of birth</label>
+                                <div class="form-date-group">
+                                    <div class="form-date-item">
+                                        <select id="birth_date" name="birth_date"></select>
+                                        <span class="select-icon"><i class="ti-angle-down"></i></span>
+                                    </div>
+                                    <div class="form-date-item">
+                                        <select id="birth_month" name="birth_month"></select>
+                                        <span class="select-icon"><i class="ti-angle-down"></i></span>
+                                    </div>
+                                    <div class="form-date-item">
+                                        <select id="birth_year" name="birth_year"></select>
+                                        <span class="select-icon"><i class="ti-angle-down"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="form-select">
+                                <label for="gender" class="form-label">Gender</label>
+                                <div class="select-list">
+                                    <select name="gender" id="gender">
+                                        <option value="">Male</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
-                        <!--== Single Testimoial End ==-->
 
-                        <!--== Single Testimoial Start ==-->
-                        <div class="single-testimonial">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis totam obcaecati impedit, at autem repellat vel magni architecto veritatis sed.</p>
-                            <h3>Amader Tuni</h3>
-                            <div class="client-logo">
-                                <img src="assets/img/client/client-pic-3.jpg" alt="JSOFT">
+                        <div class="form-group">
+                            <label for="user_name" class="form-label required">User name</label>
+                            <input type="text" name="user_name" id="user_name" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="form-label required">Password</label>
+                            <input type="password" name="password" id="password" />
+                        </div>
+                    </fieldset>
+
+                    <h3>
+                        <span class="icon"><i class="ti-email"></i></span>
+                        <span class="title_text">Contact</span>
+                    </h3>
+                    <fieldset>
+                        <legend>
+                            <span class="step-heading">Contact Informaltion: </span>
+                            <span class="step-number">Step 2 / 4</span>
+                        </legend>
+                        <div class="form-group">
+                            <label for="email" class="form-label required">Email</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label required">Phone</label>
+                            <input type="number" name="phone" id="phone" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address" class="form-label required">Address</label>
+                            <input type="text" name="address" id="address" />
+                        </div>
+
+                        <div class="form-select">
+                            <label for="country" class="form-label">Country</label>
+                            <div class="select-list">
+                                <select name="country" id="country">
+                                    <option value="">Australia</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="USA">America</option>
+                                </select>
                             </div>
                         </div>
-                        <!--== Single Testimoial End ==-->
+                    </fieldset>
 
-                        <!--== Single Testimoial Start ==-->
-                        <div class="single-testimonial">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis totam obcaecati impedit, at autem repellat vel magni architecto veritatis sed.</p>
-                            <h3>Atex Tuntuni Smith</h3>
-                            <div class="client-logo">
-                                <img src="assets/img/client/client-pic-2.jpg" alt="JSOFT">
+                    <!-- <h3>
+                        <span class="icon"><i class="ti-star"></i></span>
+                        <span class="title_text">Offical</span>
+                    </h3>
+                    <fieldset>
+                        <legend>
+                            <span class="step-heading">Offical Informaltion: </span>
+                            <span class="step-number">Step 3 / 4</span>
+                        </legend>
+                        <div class="form-group">
+                            <label for="employee_id" class="form-label required">Employee ID</label>
+                            <input type="text" name="employee_id" id="employee_id" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="designation" class="form-label required">Designation</label>
+                            <input type="text" name="designation" id="designation" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="department" class="form-label required">Department</label>
+                            <input type="text" name="department" id="department" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="work_hours" class="form-label required">Working hours</label>
+                            <input type="text" name="work_hours" id="work_hours" />
+                        </div>
+                    </fieldset> -->
+
+                    <h3>
+                        <span class="icon"><i class="ti-credit-card"></i></span>
+                        <span class="title_text">Payment</span>
+                    </h3>
+                    <fieldset>
+                        <legend>
+                            <span class="step-heading">Payment Informaltion: </span>
+                            <span class="step-number">Step 4 / 4</span>
+                        </legend>
+                        <div class="form-group">
+                            <label for="bank_name" class="form-label required">Bank Name</label>
+                            <input type="text" name="bank_name" id="bank_name" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="holder_name" class="form-label required">Holder Name</label>
+                            <input type="text" name="holder_name" id="holder_name" />
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-date">
+                                <label for="expiry_date" class="form-label">Expiry Date</label>
+                                <div class="form-date-group">
+                                    <div class="form-date-item">
+                                        <select id="expiry_date" name="expiry_date"></select>
+                                        <span class="select-icon"><i class="ti-angle-down"></i></span>
+                                    </div>
+                                    <div class="form-date-item">
+                                        <select id="expiry_month" name="expiry_month"></select>
+                                        <span class="select-icon"><i class="ti-angle-down"></i></span>
+                                    </div>
+                                    <div class="form-date-item">
+                                        <select id="expiry_year" name="expiry_year"></select>
+                                        <span class="select-icon"><i class="ti-angle-down"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="form-select">
+                                <label for="payment_type" class="form-label">Payment type</label>
+                                <div class="select-list">
+                                    <select name="payment_type" id="payment_type">
+                                        <option value="">Master Card</option>
+                                        <option value="Master Card">Master Card</option>
+                                        <option value="Visa Card">Visa Card</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
-                        <!--== Single Testimoial End ==-->
-                    </div>
-                </div>
-            </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="card_number" class="form-label required">Card Number</label>
+                                <input type="number" name="card_number" id="card_number" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="cvc" class="form-label required">CVC</label>
+                                <input type="text" name="cvc" id="cvc" />
+                            </div>
+                        </div>
+                    </fieldset>
+            </form>
         </div>
-    </section>
-    <!--== Testimonials Area End ==-->
 
-    <!--== Partner Area Start ==-->
-    <div id="partner-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="partner-content-wrap">
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/img/partner/partner-logo-1.png" alt="JSOFT">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Partner End -->
-
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/img/partner/partner-logo-2.png" alt="JSOFT">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Partner End -->
-
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/img/partner/partner-logo-3.png" alt="JSOFT">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Partner End -->
-
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/img/partner/partner-logo-4.png" alt="JSOFT">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Partner End -->
-
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/img/partner/partner-logo-5.png" alt="JSOFT">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Partner End -->
-
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/img/partner/partner-logo-1.png" alt="JSOFT">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Partner End -->
-
-                        <!-- Single Partner Start -->
-                        <div class="single-partner">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <img src="assets/img/partner/partner-logo-4.png" alt="JSOFT">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Partner End -->
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-    <!--== Partner Area End ==-->
-
-<div class="container">
-    <form method="post" action="">
-        <div id="div_login">
-            <h1>Login</h1>
-            <div>
-                <input type="text" class="textbox" id="user_name" name="user_name" placeholder="Username" />
-            </div>
-            <div>
-                <input type="password" class="textbox" id="user_name" name="password" placeholder="Password"/>
-            </div>
-            <div>
-                <input type="submit" value="Submit" name="submit" id="submit" />
-            </div>
-        </div>
-    </form>
-</div>
-<div class="bootstrap-iso">
- <div class="container-fluid">
-  <div class="row">
-   <div class="col-md-6 col-sm-6 col-xs-12">
-
-    <!-- Form code begins -->
-    <form method="post">
-      <div class="form-group"> <!-- Date input -->
-        <label class="control-label" for="date">Date</label>
-        <input class="form-control" id="date" name="date" placeholder="--select a date--" type="select"/>
-      </div>
-      <div class="form-group"> <!-- Submit button -->
-        <button class="btn btn-primary " name="submite" type="submit">Submit</button>
-      </div>
-     </form>
-     <!-- Form code ends --> 
-
+    <div class="footer">
+        
     </div>
-  </div>    
- </div>
-</div>
 
     <?php 
 
@@ -218,3 +247,10 @@ if(isset($_POST['submit'])){
       date_input.datepicker(options);
     })
 </script>
+  <div class="single-partner">
+                            <div class="display-table">
+                                <div class="display-table-cell">
+                                    <img src="assets/img/partner/partner-logo-4.png" alt="JSOFT">
+                                </div>
+                            </div>
+                        </div>
